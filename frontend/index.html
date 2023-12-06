@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>lista de tareas</h1>
+        <div class="task">
+            <h2>Todas las listas de tareas</h2>
+            <ul id="task-list"></ul>
+        </div>
+        <div class="search">
+            <h2>Buscar tarea por id</h2>
+            <input type="number" id="task-id" placeholder="ID de la tarea">
+            <button onclick="searchTask()">Busacar</button>
+            <div id="task-details">
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
